@@ -11,7 +11,9 @@
 		"test:index": "node fixtures/test-eslint-config.js --config-file=index",
 		"test:react": "node fixtures/test-eslint-config.js --config-file=react",
 		"test:wordpress": "node fixtures/test-eslint-config.js --config-file=wordpress",
-		"test:node": "node fixtures/test-eslint-config.js --config-file=nodejs"
+		"test:node": "node fixtures/test-eslint-config.js --config-file=nodejs",
+		"publish:packages": "changeset && changeset version && changeset publish",
+		"publish:prepare": "changeset && changeset version"
 	},
 	"exports": {
 		".": "./config/index.js",
@@ -23,8 +25,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wpdigitalsilk/digitalsilk-toolkit.git",
-		"directory": "packages/eslint-config"
+		"url": "git+https://github.com/wpdigitalsilk/eslint-config.git"
 	},
 	"author": "Digital Silk",
 	"license": "GPL-2.0-or-later",
