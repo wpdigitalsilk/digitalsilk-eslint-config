@@ -9,6 +9,6 @@ npm install @digitalsilk/eslint-config --save-dev
 ```js
 // eslintrc.js
 module.exports = {
-	extends: ["@digitalsilk/eslint-config"],
+    extends: ["@digitalsilk/eslint-config"],
 };
 ```
