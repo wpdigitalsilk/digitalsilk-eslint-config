@@ -1,6 +1,6 @@
 {
     "name": "@digitalsilk/eslint-config",
-    "version": "1.5.9",
+    "version": "1.6.0",
     "description": "Default Digital Silk ESLint configuration",
     "homepage": "https://github.com/wpdigitalsilk/digitalsilk-eslint-config/blob/master/README.md",
     "repository": {
@@ -33,7 +33,7 @@
         "./wordpress": "./config/wordpress.js"
     },
     "dependencies": {
-        "@digitalsilk/babel-preset-default": "^1.5.2"
+        "@digitalsilk/babel-preset-default": "^1.5.3"
     },
     "devDependencies": {
         "@changesets/cli": "^2.27.9",

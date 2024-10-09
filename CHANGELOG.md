@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0
+
+### Minor Changes
+
+- update babel dep
+
 ## 1.5.9
 
 ### Patch Changes
