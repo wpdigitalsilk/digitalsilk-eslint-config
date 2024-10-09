@@ -5,3 +5,4 @@ package-lock.json
 fixtures
 .github
 .changeset
+__tests__

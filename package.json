@@ -1,6 +1,6 @@
 {
     "name": "@digitalsilk/eslint-config",
-    "version": "1.5.7",
+    "version": "1.5.8",
     "description": "Default Digital Silk ESLint configuration",
     "homepage": "https://github.com/wpdigitalsilk/digitalsilk-eslint-config/blob/master/README.md",
     "repository": {
@@ -34,10 +34,9 @@
         "./wordpress": "./config/wordpress.js"
     },
     "dependencies": {
-        "@babel/core": "^7.25.2",
-        "@babel/eslint-parser": "^7.25.1",
-        "@digitalsilk/babel-preset-default": "^1.5.1",
-        "@wordpress/eslint-plugin": "^21.1.2",
+        "@babel/core": "^7.25.7",
+        "@babel/eslint-parser": "^7.25.7",
+        "@wordpress/eslint-plugin": "^21.2.0",
         "eslint": "8.57.1",
         "eslint-config-airbnb": "^19.0.4",
         "eslint-config-airbnb-base": "^15.0.0",
@@ -52,6 +51,7 @@
         "prettier": "3.3.3"
     },
     "devDependencies": {
-        "@changesets/cli": "^2.27.9"
+        "@changesets/cli": "^2.27.9",
+        "@digitalsilk/babel-preset-default": "^1.5.2"
     }
 }
