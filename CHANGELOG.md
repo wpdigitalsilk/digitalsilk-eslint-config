@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.5
+
+### Patch Changes
+
+- add jest
+
 ## 1.5.4
 
 ### Patch Changes
