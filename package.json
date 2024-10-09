@@ -1,6 +1,6 @@
 {
     "name": "@digitalsilk/eslint-config",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "description": "Default Digital Silk ESLint configuration",
     "homepage": "https://github.com/wpdigitalsilk/digitalsilk-eslint-config/blob/master/README.md",
     "repository": {

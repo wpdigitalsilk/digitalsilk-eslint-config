@@ -3,7 +3,7 @@ module.exports = {
 		node: true,
 		es6: true,
 	},
-	extends: './index',
+	extends: ['./index'],
 	rules: {
 		'no-console': 0,
 		'no-path-concat': 2,
