@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.2
+
+### Patch Changes
+
+- Update dependencies and configs
+
 ## 1.5.1
 
 ### Patch Changes
