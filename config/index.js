@@ -15,10 +15,11 @@ module.exports = {
 	extends: [
 		'airbnb-base',
 		require.resolve('../rules/whitespace'),
-		require.resolve('../rules/prettier'),
 		require.resolve('../rules/jsdoc'),
 		require.resolve('../rules/general'),
+		'prettier',
 		'plugin:prettier/recommended',
+		require.resolve('../rules/prettier'),
 	],
 	settings: {
 		'import/resolver': {

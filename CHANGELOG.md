@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.6
+
+### Patch Changes
+
+- update
+
 ## 1.5.5
 
 ### Patch Changes
