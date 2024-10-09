@@ -11,14 +11,13 @@ module.exports = {
 		browser: true,
 		es6: true,
 	},
-	plugins: ['jsdoc', 'prettier'],
+	plugins: ['jsdoc', 'prettier', 'import'],
 	extends: [
 		'airbnb-base',
 		require.resolve('../rules/whitespace'),
 		require.resolve('../rules/prettier'),
 		require.resolve('../rules/jsdoc'),
 		require.resolve('../rules/general'),
-		'prettier',
 		'plugin:prettier/recommended',
 	],
 	settings: {
@@ -60,33 +59,5 @@ module.exports = {
 			{ devDependencies: true, optionalDependencies: true, peerDependencies: true },
 		],
 	},
-	overrides: [
-		{
-			parser: '@typescript-eslint/parser',
-			plugins: ['@typescript-eslint'],
-			files: ['*.ts', '*.tsx'],
-			rules: {
-				// not needed for typescript
-				'no-undef': 0,
-				// we need to use the no-unused-vars rule from ts.
-				'no-unused-vars': 0,
-				'@typescript-eslint/no-unused-vars': 2,
-				'no-use-before-define': 0,
-				'@typescript-eslint/no-use-before-define': 2,
-				'import/extensions': [
-					'error',
-					'ignorePackages',
-					{
-						js: 'never',
-						mjs: 'never',
-						jsx: 'never',
-						ts: 'never',
-						tsx: 'never',
-					},
-				],
-				'jsdoc/require-param-type': 0,
-				'no-restricted-globals': 0,
-			},
-		},
-	],
+	overrides: [],
 };
