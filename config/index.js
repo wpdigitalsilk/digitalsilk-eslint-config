@@ -11,15 +11,15 @@ module.exports = {
 		browser: true,
 		es6: true,
 	},
-	plugins: ['jsdoc', 'prettier', 'import'],
+	plugins: ['jsdoc', 'prettier'],
 	extends: [
 		'airbnb-base',
 		require.resolve('../rules/whitespace'),
+		require.resolve('../rules/prettier'),
 		require.resolve('../rules/jsdoc'),
 		require.resolve('../rules/general'),
 		'prettier',
 		'plugin:prettier/recommended',
-		require.resolve('../rules/prettier'),
 	],
 	settings: {
 		'import/resolver': {

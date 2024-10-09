@@ -18,7 +18,6 @@ module.exports = {
 		],
 		// prop spreading is dangerous but has its use cases
 		'react/jsx-props-no-spreading': 1,
-		'react/jsx-no-useless-fragment': 0,
 		// prefer arrow functions for defining components
 		'react/function-component-definition': [
 			1,
@@ -30,12 +29,5 @@ module.exports = {
 		'react/jsx-uses-react': 0,
 		'react/react-in-jsx-scope': 0,
 	},
-	overrides: [
-		{
-			files: ['*.ts', '*.tsx'],
-			rules: {
-				'react/prop-types': 0,
-			},
-		},
-	],
+	overrides: [],
 };
