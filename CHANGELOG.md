@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.7
+
+### Patch Changes
+
+- add npmignore
+
 ## 1.5.6
 
 ### Patch Changes
